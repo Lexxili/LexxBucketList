@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
@@ -21,15 +23,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PlacesActivity"
+        <activity
+            android:name=".PlacesActivity"
             android:exported="false"
             android:label="Places"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
 
-        <activity android:name=".ThingsActivity"
+        <activity
+            android:name=".ThingsActivity"
             android:exported="false"
             android:label="Things"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
 
 
     </application>

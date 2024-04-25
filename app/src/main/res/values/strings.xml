@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">LexxBucketList</string>
+    <string name="app_name">Lexx`s personal bucket list</string>
+    <string name="places_to_go">Places to go</string>
+    <string name="things_to_do">Things to do</string>
+    <string name="niagara_name">Niagara Falls</string>
 </resources>
